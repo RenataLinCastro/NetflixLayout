@@ -1,12 +1,19 @@
+@font-face{
+    font-family: Netflix Sans;
+    src: url();
+}
+
+
 *{
     padding: 0%;
     margin: 0%;
+    
 }
 #page{
     width: 100%;
-
+    background-color: #1f1e1e;
 }
-header, main, footer{
+header, main, footer, #secoesSeries, .produtos{
 
     width: 100%;
     display: flex;
@@ -15,6 +22,10 @@ header, main, footer{
 header, footer {
     height: 60px;
     background-color: black;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
 }
 
 aside{
@@ -34,7 +45,61 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
+
 }
 #asideEsquerda{
     justify-content: center;
 }
+#secoesSeries{
+    flex-direction: column;   /*Presta atenção nesse cara*/
+    background-color: black;
+    gap: 20px;
+    align-items: center;
+}
+.fila{
+    width: 95%;
+    height: 200px;
+    background-color: rgba(70, 68, 68, 0.527);
+}
+
+.fila h2{
+    margin: 12px;
+    font-weight: bold;
+}
+
+.produtos{
+    height: 100px;
+    gap: 5px;
+
+}
+
+.itemdafila{
+    width: 200px;
+    height: 100%;
+    background-position:center ;
+    background-size:100%;
+    background-repeat: no-repeat;
+
+}
+
+/* Itens */
+
+#s1{
+    background-image: url("../images/balkmirror.png");
+}
+
+#s2{
+    background-image: url("../images/alienista.png");
+
+}
+
+#s3{
+    background-image: url("../images/comedia.png");
+}
+
+/* a{
+    text-decoration-color:none ;
+    text-decoration-style:solid ;
+
+} */

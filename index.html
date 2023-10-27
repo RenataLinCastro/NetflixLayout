@@ -19,28 +19,84 @@
         <!-- Cabeçalho -->
         <header>
             <!-- lado esquerdo -->
-            <aside class="asideEsquerda"></aside>
-            <div id="logo">
-                <img class="imagem" src="assets (utilizado na estrutura do React)/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#bannerNarcos">home</a></li>
-                    <li><a href="#">Séries TV</a></li>
-                    <li><a href="#">eEm Alta</a></li>
-                    <li><a href="#">Terror</a></li>
-                    <li><a href="#"></a>Suspense</li>
-                    <li><a href="#"></a>Top da Semana</li>
-                    <li><a href="#">Romance</a></li>
-                </ul>
-            </nav>
+            <aside class="asideEsquerda">
+                <div id="logo">
+                    <img class="imagem" src="assets (utilizado na estrutura do React)/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#bannerNarcos">home</a></li>
+                        <li><a href="#">Séries TV</a></li>
+                        <li><a href="#">eEm Alta</a></li>
+                        <li><a href="#">Terror</a></li>
+                        <li><a href="#">Suspense</a></li>
+                        <li><a href="#">Top da Semana</a></li>
+                        <li><a href="#">Romance</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
             <!-- lado direito -->
             <aside class="asideDireita"></aside>
         </header>
         <!-- Corpo -->
         <main>
-            <section class="banner" id="bannerNarcos"></section>
-            <section id="secoesSeries"></section>
+            <section class="banner" id="bannerNarcos">
+                <img src="" alt="">
+            </section>
+            <!-- Seção de Séries -->
+            <section id="secoesSeries">
+                <section class="fila" id="filaSeriesTV">
+                    <h2>Series TV</h2>
+                    <div class="produtos">
+                        <div class="itemdafila" id="s1"></div>
+                        <div class="itemdafila" id="s2"></div>
+                        <div class="itemdafila" id="s3"></div>
+                        <div class="itemdafila" id="s4"></div>
+                    </div>
+                </section>
+                <!-- Em Alta -->
+                    <section class="fila" id="filaSeriesTV">
+                        <h2>Series TV</h2>
+                        <div class="produtos">
+                            <div class="itemdafila" id="d1"></div>
+                            <div class="itemdafila" id="d2"></div>
+                            <div class="itemdafila" id="d3"></div>
+                            <div class="itemdafila" id="d4"></div>
+                        </div>
+                    </section>
+                <!-- Terror -->
+                        <section class="fila" id="filaSeriesTV">
+                            <h2>Series TV</h2>
+                            <div class="produtos">
+                                <div class="itemdafila" id="m1"></div>
+                                <div class="itemdafila" id="m2"></div>
+                                <div class="itemdafila" id="m3"></div>
+                                <div class="itemdafila" id="m4"></div>
+                            </div>
+                        </section>
+                <!-- Suspense -->
+                        <section class="fila" id="filaSeriesTV">
+                            <h2>Series TV</h2>
+                            <div class="produtos">
+                                <div class="itemdafila" id="x1"></div>
+                                <div class="itemdafila" id="x2"></div>
+                                <div class="itemdafila" id="x3"></div>
+                                <div class="itemdafila" id="x4"></div>
+                            </div>
+                        </section>
+                        <section class="fila" id="filaSeriesTV">
+                            <h2>Series TV</h2>
+                            <div class="produtos">
+                                <div class="itemdafila" id="p1"></div>
+                                <div class="itemdafila" id="p2"></div>
+                                <div class="itemdafila" id="p3"></div>
+                                <div class="itemdafila" id="p4"></div>
+                            </div>       
+                        </section>
+
+            </section>
+            <!-- Fim Seção de Séries -->
             <section class="banner" id="bannerPolonais"></section>
             <section id="categorias"></section>
         </main>
