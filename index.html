@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="shortcut icon" href="assets (utilizado na estrutura do React)/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png">
+    <link rel="stylesheet" href="styles/geral.css">
+
+    <!-- Dicas:
+    >Faça divs do que você pode ver
+    > Não inicie pelos elementos que se repetem
+    > Inicie pelo básico: div=pagina; header; main, footer
+    > Pode dividir as sessões em classes, pois esse elementos se repetem, -->
+</head>
+<body>
+    <div id="pagina">
+        <!-- Cabeçalho -->
+        <header>
+            <!-- lado esquerdo -->
+            <aside class="asideEsquerda"></aside>
+            <div id="logo">
+                <img class="imagem" src="assets (utilizado na estrutura do React)/logo/logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#bannerNarcos">home</a></li>
+                    <li><a href="#">Séries TV</a></li>
+                    <li><a href="#">eEm Alta</a></li>
+                    <li><a href="#">Terror</a></li>
+                    <li><a href="#"></a>Suspense</li>
+                    <li><a href="#"></a>Top da Semana</li>
+                    <li><a href="#">Romance</a></li>
+                </ul>
+            </nav>
+            <!-- lado direito -->
+            <aside class="asideDireita"></aside>
+        </header>
+        <!-- Corpo -->
+        <main>
+            <section class="banner" id="bannerNarcos"></section>
+            <section id="secoesSeries"></section>
+            <section class="banner" id="bannerPolonais"></section>
+            <section id="categorias"></section>
+        </main>
+        <!-- Rodapé -->
+        <footer></footer>
+    </div>
+    
+</body>
+</html>
